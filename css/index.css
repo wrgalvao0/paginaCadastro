@@ -74,5 +74,20 @@ button{
         grid-template-rows: 100vh;
     }
 }
+@media (min-width: 1441px) and (max-width: 2560px)
+{
+    .layout{
+        grid-template-columns: repeat(2, 50vw);
+        grid-template-rows: 100vh;
+    }
+    button{
+        width: 10%;
+        font-size: large;
+    }
+    input{
+        padding: 10px;
+        font-size: larger;
+    }
+}
 
 
