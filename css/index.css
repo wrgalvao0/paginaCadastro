@@ -59,11 +59,20 @@ button{
     width: 20%;
     border: none;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 .titulo-formulario h1{
     display: none;
     margin-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px)
+{
+    .layout{
+        grid-template-columns: repeat(2, 50vw);
+        grid-template-rows: 100vh;
+    }
 }
 
 
